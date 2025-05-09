@@ -1,4 +1,4 @@
-
+This is a take home assignment for an interview. This repo contains a simple cypress test to verify the calculator is returning values as expected. There is also a UI test plan below as requested in the assignment
 - [ ] Sign in test case
     - [ ] Go to https://www.calculator.net/my-account/sign-in.php
     - [ ] Input incorrect email
