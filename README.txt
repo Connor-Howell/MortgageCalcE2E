@@ -1,0 +1,97 @@
+
+- [ ] Sign in test case
+    - [ ] Go to https://www.calculator.net/my-account/sign-in.php
+    - [ ] Input incorrect email
+    - [ ] Input correct password
+    - [ ] Verify stay signed in is checked by default, uncheck it
+    - [ ] Click sign in
+    - [ ] Verify error message: Email and password do not match. Please try again.
+    - [ ] Verify password cleared
+    - [ ] Verify Email didn’t clear
+    - [ ] Click Sign In again
+    - [ ] Verify error message: Please enter your email and password to sign in.
+    - [ ] Replace with correct email
+    - [ ] Input Incorrect password
+    - [ ] Click sign in
+    - [ ] Verify error message: Email and password do not match. Please try again.
+    - [ ] Input correct password
+    - [ ] Click Sign in
+
+
+
+- [ ] UI Test case:
+    - [ ] https://www.calculator.net/mortgage-calculator.html
+    - [ ] Verify that the save button redirects the page, go back (this page should be tested separately)
+    - [ ] Modify Home Price, verify it is intractable and modifiable
+    - [ ] Modify Down Payment value, verify that it defaults to percentage
+    - [ ] Modify the Down Payment units, verify the picker wheel displays and that the Down Payment updates correctly when it is changed.
+    - [ ] Test Down Payment tooltip and verify the content
+    - [ ] Modify Loan Term, verify it is intractable and modifiable. Also verify that years is visible
+    - [ ] Test Loan Term tooltip and verify the content
+    - [ ] Modify Interest Rate, verify it is intractable and modifiable.
+    - [ ] Test Interest Rate tooltip and verify the content
+    - [ ] Modify Start Date, verify the month picker wheel displays and value updates
+    - [ ] Modify start year, verify it is intractable and modifiable
+    - [ ] Verify the Include Taxes & Costs Below checkbox is checked by default, and that the expected fields below are visible. Verify the Annual Tax & Cost Heading is visible.
+    - [ ] Uncheck the Include Taxes & Costs Below checkbox, and verify that the ui updates and those fields are hidden
+    - [ ] Recheck the Include Taxes & Costs Below checkbox and verify the fields are visible again
+    - [ ] Verify Property Taxes defaults to percentage. Modify the value to verify it is intractable and modifiable.
+    - [ ] Modify the Property Taxes unit, verify the picker wheel displays and the tax cost changes correctly when you change it to dollars
+    - [ ] Verify Property Taxes tooltip displays and verify content
+    - [ ] Verify Home Insurance defaults to dollars. Modify the value to verify it is intractable and modifiable.
+    - [ ] Modify the Home Insurance unit, verify the picker wheel displays and the Insurance cost changes correctly when you change it to percentage
+    - [ ] Verify Home Insurance tooltip displays and verify content
+    - [ ] Verify PMI Insurance defaults to dollars. Modify the value to verify it is intractable and modifiable.
+    - [ ] Modify the PMI Insurance unit, verify the picker wheel displays and the Insurance cost changes correctly when you change it to percentage
+    - [ ] Verify PMI Insurance tooltip displays and verify content
+    - [ ] Verify HOA Fee defaults to dollars. Modify the value to verify it is intractable and modifiable.
+    - [ ] Modify the HOA Fee unit, verify the picker wheel displays and the Insurance cost changes correctly when you change it to percentage
+    - [ ] Verify HOA Fee tooltip displays and verify content
+    - [ ] Verify Other Costs defaults to dollars. Modify the value to verify it is intractable and modifiable.
+    - [ ] Modify the Other Costs unit, verify the picker wheel displays and the insurance cost changes correctly when you change it to percentage
+    - [ ] Verify Other Costs tooltip displays and verify content
+    - [ ] Verify that +More Options is visible, and that the fields below are hidden
+    - [ ] Click +More Options, and verify that the fields become visible
+    - [ ] Verify the Annual Tax & Cost Increase header is visible
+    - [ ] Click - Fewer Options, and verify the fields become hidden
+    - [ ] Click + More Options
+    - [ ] Verify Property Taxes Increase defaults to 0%, and that it is modifiable
+    - [ ] Verify Home Insurance Increase defaults to 0%, and that it is modifiable 
+    - [ ] Verify HOA Fee Increase defaults to 0%, and that it is modifiable
+    - [ ] Verify Other Costs Increase defaults to 0%, and that it is modifiable
+    - [ ] Verify the Extra Payments header is visible
+    - [ ] Verify the Extra Monthly Pay defaults to $0, and that it is modifiable
+    - [ ] Verify the Extra Monthly Pay month picker wheel displays and that the value updates correctly
+    - [ ] Verify the Extra Monthly Pay year is modifiable
+    - [ ] Verify the Extra Yearly Pay defaults to $0, and that it is modifiable
+    - [ ] Verify the Extra Yearly Pay month picker wheel displays and that the value updates correctly
+    - [ ] Verify the Extra Yearly Pay year is modifiable
+    - [ ] Verify the Extra One-time Pay defaults to $0, and that it is modifiable
+    - [ ] Verify the Extra One-time Pay month picker wheel displays and that the value updates correctly
+    - [ ] Verify the Extra One-time Pay year is modifiable
+    - [ ] Verify + Additional One-Time Payments option is visible and that the fields below are hidden
+    - [ ] Click + Additional One-Time Payments, and verify the fields below become visible
+    - [ ] Verify - Hide Below Inputs is visible
+    - [ ] Modify the values that expand below. Verify the month picker wheels display and update correctly, and that the years are modifiable.
+    - [ ] Click - Hide Below Inputs and verify the fields become hidden.
+    - [ ] Click + Additional One-Time Payments and verify that the modified values remained in the fields below
+    - [ ] Click - Fewer Options and verify the fields below it become hidden
+    - [ ] Click + More Options and verify the modified values remain in the fields below including Additional One-Time Payments
+    - [ ] Click - Hide Below Inputs and verify the fields are hidden
+    - [ ] Uncheck Include Taxes & Costs Below and verify the fields below become hidden
+    - [ ] Click Include & Costs Below and verify the modified values remain in the fields below, and that + Additional One-Time Payments is visible
+    - [ ] Verify Show Biweekly Payback Results checkbox is checked by default
+    - [ ] Verify the box can be unchecked and rechecked
+    - [ ] Click Clear
+    - [ ] Verify all fields are cleared, including the years that defaulted to the current year are now blank and modified units have remained as they were set before you cleared
+    - [ ] Verify the Amortization schedule defaults to Annual Schedule
+    - [ ] Verify there are 30 rows in the table, and that the first column says Year
+    - [ ] Click Monthly Schedule
+    - [ ] Verify that it now has 390 rows (there is an additional row to indicate the end of each year)
+    - [ ] Click Calculate
+    - [ ] Verify the following errors occur: 
+        - [ ] Please provide a positive home price value.
+        - [ ] Please provide a positive down payment value.
+        - [ ] Please provide a positive loan term value.
+        - [ ] Please provide a positive interest rate value.
+    - [ ] Verify that the Amortization schedule is no longer visible
